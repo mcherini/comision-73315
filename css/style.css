@@ -31,13 +31,15 @@ header img {
     background-color: rgb(62, 138, 209);
     color: white;
 }
+.click-button{
+border-width:5px;
+border-color:  rgb(41, 41, 97);
+}
 
-
-.seleccion{
-    border-width: 5px;
-    border-color: rgb(41, 41, 97);
+.click{
+    background-color: rgb(41, 41, 97);
     border-radius: 4px;
-  
+    color: white !important;
 }
 
 .nav-item:hover {
