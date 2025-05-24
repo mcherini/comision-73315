@@ -29,13 +29,15 @@ header img {
 
 .navbar-toggler {
     background-color: rgb(62, 138, 209);
+    color: white;
 }
 
 
-.seleccion {
-    background-color: rgb(41, 41, 97);
+.seleccion{
+    border-width: 5px;
+    border-color: rgb(41, 41, 97);
     border-radius: 4px;
-    color: white !important;
+  
 }
 
 .nav-item:hover {
