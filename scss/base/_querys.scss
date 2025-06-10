@@ -1,0 +1,113 @@
+@media screen and (max-width:1000px) {
+
+    .proyectos_c div img {
+        width: 130px;
+        height: 65px;
+    }
+
+    .historia_c {
+        display: block;
+    }
+
+    .contacto_c div iframe {
+        width: 420px;
+        height: 315px;
+    }
+
+
+}
+
+@media screen and (max-width:865px) {
+
+
+    .proyectos_c div img {
+        width: 130px;
+        height: 65px;
+    }
+
+    .principal_img {
+        display: none;
+    }
+    .principal_c
+    {
+        font-size: 15px;
+    }
+
+    .contacto_c div iframe {
+        width: 294px;
+        height: 220px;
+    }
+
+
+}
+
+
+
+
+@media screen and (max-width:760px) {
+
+
+
+
+    footer {
+
+        display: block;
+        text-align: center;
+    }
+
+    .novedad_principal {
+        grid-row: span 2;
+        grid-column: span 2;
+    }
+
+
+    .novedad_principal img {
+
+        height: 150px;
+        width: 150px;
+    }
+
+    .novedades_grid {
+
+        grid-template-columns: 1fr 1fr;
+
+
+    }
+
+    .historia_video iframe {
+        width: 448px;
+        height: 252px;
+    }
+
+
+
+}
+
+@media screen and (max-width:680px) {
+    .contacto_c {
+        display: block;
+        justify-self: center;
+    }
+
+
+}
+
+
+
+@media screen and (max-width:480px) {
+
+    .novedades_grid {
+
+        display: block;
+
+
+    }
+
+    .historia_video iframe {
+        width: 313px;
+        height: 176px;
+    }
+
+
+
+}

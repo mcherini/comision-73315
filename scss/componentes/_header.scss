@@ -1,0 +1,48 @@
+header {
+  img {
+    height: 100px;
+    width: 170px;
+    border-radius: 20px;
+  }
+}
+.container-fluid {
+  background-color: white;
+}
+.navbar-toggler {
+  background-color: rgb(62, 138, 209);
+  color: white;
+}
+
+.click {
+  background-color: rgb(41, 41, 97) !important;
+  border-radius: 4px;
+  color: white !important;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: rgb(62, 138, 209);
+  &:hover {
+    background-color: rgb(41, 41, 97);
+    border-radius: 4px;
+    color: white;
+  }
+}
+
+.nav-item-auto {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(62, 138, 209);
+  border-radius: 4px;
+  a {
+    color: white;
+  }
+  &:hover {
+    background-color: rgb(41, 41, 97);
+  }
+}
+
+.navbar-collapse {
+  text-align: center;
+}
+

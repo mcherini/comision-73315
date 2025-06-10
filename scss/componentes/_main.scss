@@ -1,0 +1,146 @@
+.titulo {
+  background-color: rgb(62, 138, 209);
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+  h1 {
+    font-size: 50px;
+  }
+}
+
+.carousel_section {
+  div {
+    max-height: 250px;
+    width: 100%;
+  }
+}
+.principal_c {
+  background-color: rgb(62, 138, 209);
+  color: white;
+  display: flex;
+  text-align: center;
+  font-size: 25px;
+  padding: 10px;
+  p {
+    padding: 10px;
+    text-align: left;
+  }
+}
+
+.principal_img {
+  width: 600px;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+.proyectos_c {
+  background-image: url(../img/terrenos_proyectos.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  padding: 20px;
+  h2 {
+    font-size: 50px;
+  }
+  div {
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+    img {
+      width: 200px;
+      height: 100px;
+    }
+  }
+}
+
+.novedades_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  div {
+    text-align: center;
+    border: 5px solid rgb(62, 138, 209);
+    border-radius: 15px;
+    margin: 15px;
+    padding: 20px;
+  }
+}
+.novedad_principal {
+  grid-row: span 2;
+  grid-column: span 2;
+  img {
+    height: 300px;
+    width: 300px;
+  }
+}
+.novedad_secundaria {
+  img {
+    height: 150px;
+    width: 150px;
+  }
+}
+
+.contacto_c {
+  display: flex;
+  color: rgb(62, 138, 209);
+  text-align: center;
+  margin: 30px;
+  padding: 30px;
+  justify-content: space-around;
+  div {
+    form {
+      display: flex;
+      flex-direction: column;
+      color: rgb(62, 138, 209);
+      text-align: center;
+      label {
+        margin: 10px;
+        padding: 10px;
+      }
+    }
+  }
+  iframe {
+    width: 600px;
+    height: 450px;
+  }
+}
+
+.autogestion_c {
+  color: rgb(62, 138, 209);
+  text-align: center;
+  label {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.historia_c {
+  display: flex;
+  color: white;
+  background-color: rgb(62, 138, 209);
+  text-align: center;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  p {
+    text-align: left;
+  }
+}
+.historia_video {
+  iframe {
+    width: 560px;
+    height: 315px;
+  }
+}
+
+input[type="button"] {
+  color: white;
+  background-color: rgb(62, 138, 209);
+}
+
