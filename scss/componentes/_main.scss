@@ -20,6 +20,8 @@
   color: white;
   display: flex;
   text-align: center;
+  flex-direction: row-reverse;
+  align-items: center;
   font-size: 25px;
   padding: 10px;
   p {
@@ -99,6 +101,7 @@
       flex-direction: column;
       color: rgb(62, 138, 209);
       text-align: center;
+
       label {
         margin: 10px;
         padding: 10px;
@@ -114,9 +117,17 @@
 .autogestion_c {
   color: rgb(62, 138, 209);
   text-align: center;
-  label {
+  margin: 30px;
+  padding: 30px;
+
+  form {
     display: flex;
     flex-direction: column;
+    align-items: center;
+     label {
+        margin: 10px;
+        padding: 10px;
+      }
   }
 }
 
@@ -142,5 +153,5 @@
 input[type="button"] {
   color: white;
   background-color: rgb(62, 138, 209);
+  margin-top: 30px;
 }
-
