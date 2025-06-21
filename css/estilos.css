@@ -121,28 +121,34 @@ header img {
 .novedades_grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto;
+  grid-template-rows: max-content;
 }
 .novedades_grid div {
   text-align: center;
   border: 5px solid rgb(62, 138, 209);
   border-radius: 15px;
-  margin: 15px;
+  margin: 10px;
   padding: 20px;
 }
 
 .novedad_principal {
   grid-row: span 2;
   grid-column: span 2;
+  overflow: hidden;
 }
 .novedad_principal img {
-  height: 300px;
-  width: 300px;
+  width: 60%;
+  height: 60%;
+  object-fit: contain;
 }
 
+.novedad_secundaria {
+  overflow: hidden;
+}
 .novedad_secundaria img {
-  height: 150px;
-  width: 150px;
+  width: 60%;
+  height: 60%;
+  object-fit: contain;
 }
 
 .contacto_c {
@@ -214,7 +220,8 @@ footer {
   display: flex;
   font-size: 15px !important;
   justify-content: space-between;
-  padding: 5px 50px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 footer h2 {
   font-size: 30px;
@@ -233,7 +240,7 @@ footer img {
   text-align: center;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1056px) {
   .proyectos_c div img {
     width: 130px;
     height: 65px;
@@ -244,6 +251,9 @@ footer img {
   .contacto_c div iframe {
     width: 420px;
     height: 315px;
+  }
+  .novedad_secundaria p {
+    display: none;
   }
 }
 @media screen and (max-width: 865px) {
@@ -261,19 +271,15 @@ footer img {
     width: 294px;
     height: 220px;
   }
-}
-@media screen and (max-width: 760px) {
   footer {
     display: block;
     text-align: center;
   }
+}
+@media screen and (max-width: 790px) {
   .novedad_principal {
     grid-row: span 2;
     grid-column: span 2;
-  }
-  .novedad_principal img {
-    height: 150px;
-    width: 150px;
   }
   .novedades_grid {
     grid-template-columns: 1fr 1fr;
@@ -289,7 +295,7 @@ footer img {
     justify-self: center;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 550px) {
   .novedades_grid {
     display: block;
   }
