@@ -1,11 +1,10 @@
-
 footer {
   background-color: rgb(62, 138, 209);
   color: white;
   display: flex;
   font-size: 15px !important;
   justify-content: space-between;
-  padding-left:100px;
+  padding-left: 100px;
   padding-right: 100px;
   h2 {
     font-size: 30px;
@@ -22,4 +21,11 @@ footer {
 }
 .redes_sociales {
   text-align: center;
+     div{  
+      img {
+        height: 20px;
+        width: 20px;
+      }
+     }
+  
 }
